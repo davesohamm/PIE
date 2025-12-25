@@ -1,0 +1,71 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Output files
+*.log
+*.csv
+*.json
+results/
+*.perf.data
+*.perf.data.old
+perf.data*
+
+# Profiling data
+*.prof
+*.gcov
+*.gcda
+*.gcno
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/_build/
+docs/html/
+docs/latex/
+
+# Test artifacts
+tests/output/
+*.test
+
